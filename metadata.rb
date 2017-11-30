@@ -5,7 +5,9 @@ license 'Apache-2.0'
 description 'Installs/Configures sigje_test_metadata'
 long_description 'Installs/Configures sigje_test_metadata'
 version '0.1.0'
-chef_version '>= 12.1' if respond_to?(:chef_version)
+chef_version '>= 13' if respond_to?(:chef_version)
+
+supports 'centos', '>=7'
 
 # The `issues_url` points to the location where issues for this cookbook are
 # tracked.  A `View Issues` link will be displayed on this cookbook's page when
