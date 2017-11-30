@@ -4,7 +4,7 @@ maintainer_email 'you@example.com'
 license 'Apache-2.0'
 description 'Installs/Configures sigje_test_metadata'
 long_description 'Installs/Configures sigje_test_metadata'
-version '0.1.0'
+version '0.2.0'
 chef_version '>= 13' if respond_to?(:chef_version)
 
 supports 'centos', '>=8'
